@@ -34,7 +34,7 @@ body.open {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: #00A000;
   overflow: hidden;
   z-index: 1;
 }
@@ -148,7 +148,7 @@ button.menu img {
   bottom: 0;
   width: 250px;
   height: 100%;
-  background-color: #3367D6;
+  background-color: #007000;
   color: #fefefe;
   -webkit-transform: translate(-250px, 0);
           transform: translate(-250px, 0);
@@ -216,6 +216,70 @@ button.menu img {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
+.topiclist {
+  margin-top: 15px;
+}
+
+.topicdiv {
+  width: 65%;
+  margin-top: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px;
+}
+
+.topicdiv:nth-child(even) {
+  background-color: rgb(245,250,255);
+}
+
+.topicdiv:nth-child(odd) {
+  background-color: rgb(255,250,245);
+}
+
+.topicspan {
+  width: 300px;
+}
+
+.topicscore {
+  float: right;
+  font-weight: bold;
+}
+
+.votedown {
+  text-size: 12px;
+  font-weight: bold;
+  color: #CC0000;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #FFDDDD;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.voteup {
+  text-size: 12px;
+  font-weight: bold;
+  color: #00AA00;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #DDFFDD;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.votedown:hover {
+  background-color: #DDCCCC;
+}
+
+.voteup:hover {
+  background-color: #CCDDCC;
+}
+
 main {
   margin: 0 auto;
   /* Height of the header */
@@ -241,7 +305,7 @@ main {
     max-width: 864px;
     padding: 0 16px;
     box-sizing: border-box;
-    background-color: #4285f4;
+    background-color: #00A000;
   }
 
   .app-bar .logo {
